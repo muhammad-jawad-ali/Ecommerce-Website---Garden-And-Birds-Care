@@ -26,6 +26,36 @@ html {
     scroll-behavior: smooth;
 }
 
+.header_bg, .header_section {
+    top: 60px;
+    padding-top:150px
+}
+
+.second-header {
+    position:fixed;
+    z-index: 100;
+    background-color: #f8f9fa; /* Light background color */
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%
+}
+
+.second-header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.second-header p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     color: #666666;
     font-size: 14px;
